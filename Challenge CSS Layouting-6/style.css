@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background-color: blue;
+}
+
+.header {
+    width: auto;
+    height: 50px;
+    background-color: rgb(197, 196, 196);
+}
+
+.header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.content {
+    height: 550px;
+    background-color: rgb(161, 158, 158);
+}
+
+.sidebar {
+    width: 300px;
+    height: 550px;
+    float: left;
+    background-color: rgb(161, 158, 158);
+}
+
+.sidebar ol {
+    width: 300px;
+    height: 50px;
+    padding-top: 2px;
+    margin-top: 20px;
+    font-family: Arial;
+    background-color: rgb(197, 196, 196);
+    color: white;
+}
+
+.main {
+    width: 600px;
+    height: 550px;
+    float: right;
+    background-color: lightgrey;
+}
+
+.grid-sidebar {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.grid-sidebar h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text],
+select {
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 3px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+input[id=lname],
+select {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 17px;
+}
+
+input[type=submit]{
+    width: 280px;
+    background-color: blue;
+    color: white;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.clear {
+    clear: both;
+}

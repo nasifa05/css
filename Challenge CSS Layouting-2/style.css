@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background-color: black;
+}
+
+.header {
+    height: 250px;
+    background-color: yellow;
+}
+
+.menu {
+    height: 70px;
+    background-color: red;
+}
+
+.content {
+    height: 600px;
+    background-color: orange;
+}
+
+.sidebar {
+    width: 30%;
+    height: 600px;
+    float: left;
+    background-color: orange;
+}
+
+.main {
+    width: 70%;
+    height: 600px;
+    float: right;
+    background-color: blue;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    width: 900px;
+    height: 100px;
+    background-color: green;
+}
